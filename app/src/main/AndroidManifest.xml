@@ -22,7 +22,8 @@
         <activity android:name=".presenter_activity" />
         <activity android:name=".Schedule_Activity" />
         <activity android:name=".Map_Activity" />
-        <activity android:name=".Speakers_Activity"></activity>
+        <activity android:name=".Speakers_Activity" />
+        <activity android:name=".test"></activity>
     </application>
 
 </manifest>
