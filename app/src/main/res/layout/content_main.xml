@@ -6,6 +6,25 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.discovery.hisso.discovery.MainActivity"
-    tools:showIn="@layout/app_bar_main">
+    tools:showIn="@layout/app_bar_main" android:baselineAligned="false">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <Button
+            android:id="@+id/addToSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add to Schedule"
+            android:textAlignment="center" />
+    </LinearLayout>
+
 
 </android.support.constraint.ConstraintLayout>

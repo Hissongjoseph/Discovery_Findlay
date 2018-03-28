@@ -5,4 +5,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="presenter_info">This is going to be about the presenter</string>
+    <string name="john_doe">John Doe</string>
 </resources>
