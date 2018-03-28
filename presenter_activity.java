@@ -2,6 +2,7 @@ package com.discovery.hisso.discovery;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toolbar;
 
 public class presenter_activity extends AppCompatActivity {
 
@@ -10,4 +11,5 @@ public class presenter_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_presenter_activity);
     }
+
 }
